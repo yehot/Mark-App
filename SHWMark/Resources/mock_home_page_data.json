@@ -1,0 +1,34 @@
+{
+    "pageNo": 1,
+    "pageSize": 20,
+    "totalCount": 13,
+    "totalPages": 1,
+    "pageList": [
+        {
+            "id": 16,
+            "name": "标注任务",
+            "media": "IMAGE",
+            "status": 1,
+            "creatorName": "sssccc",
+            "modifierName": null,
+            "gmtCreate": "2017-11-16 12:43:09",
+            "gmtModified": "2017-12-04 11:10:36",
+            "access": "PUBLIC",
+            "price": 10,
+            "schema_备注": "schema 字段服务端下发的是 json string",
+            "schema": "{\"type\": \"image\",\"marks\": [  { \"key\": \"car\", \"type\": \"bound\", \"name\": \"类型1\"  },  { \"key\": \"truck\", \"type\": \"bound\", \"name\": \"类型2\", \"description\": \"卡车\"  },  { \"key\": \"bus\", \"type\": \"bound\", \"name\": \"类型3\", \"description\": \"载人客车\"  },  { \"key\": \"tanker\", \"type\": \"bound\", \"name\": \"类型类型类型4\", \"description\": \"带罐子的危化品或油罐车\"}]}",
+            "description": "用于提升对象跟踪识别算法对于对象的识别能力",
+            "submitCount": 0,
+            "submitPrice": 5,
+            "startTime": "2017-11-08 21:00:00",
+            "endTime": "2018-11-08 21:00:00",
+            "medias": [
+                "d",
+                "c"
+            ],
+            "taskCount": 6890,
+            "taskCompletedCount": 39,
+            "joinPersonCount": 0
+        }
+    ]
+}

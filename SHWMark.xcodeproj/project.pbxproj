@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20138D91FB2E4F0009230CF /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20138D81FB2E4F0009230CF /* UIColor+Hex.swift */; };
+		B2205B311FB95A3100FD3CAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2205B211FB95A3000FD3CAC /* LoginViewController.swift */; };
+		B2205B3C1FB95A3100FD3CAC /* MarkEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2205B301FB95A3000FD3CAC /* MarkEditViewController.swift */; };
+		B2205B451FB983AF00FD3CAC /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2205B441FB983AF00FD3CAC /* UIView+Frame.swift */; };
+		B2205B4C1FB9889E00FD3CAC /* MarkJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2205B4B1FB9889E00FD3CAC /* MarkJobListViewController.swift */; };
+		B22273751FFE106F00879CB7 /* MarkSelectedMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22273741FFE106E00879CB7 /* MarkSelectedMaskLayer.swift */; };
+		B22273781FFE31DA00879CB7 /* ConfigCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22273771FFE31DA00879CB7 /* ConfigCenterService.swift */; };
+		B222737A1FFE320300879CB7 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22273791FFE320300879CB7 /* ImageCacheManager.swift */; };
+		B226C43F1FD688B000D3C50B /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226C43E1FD688B000D3C50B /* StoryboardInstantiable.swift */; };
+		B226C4721FD7E00300D3C50B /* MarkJobColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B226C4711FD7E00300D3C50B /* MarkJobColor.swift */; };
+		B22AE3411FC2F2110047AA5A /* ColorStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE33F1FC2F2100047AA5A /* ColorStackView.swift */; };
+		B22AE3461FC31A5D0047AA5A /* MarkListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3451FC31A5D0047AA5A /* MarkListRequest.swift */; };
+		B22AE3491FC31AC10047AA5A /* MarkListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3481FC31AC10047AA5A /* MarkListModel.swift */; };
+		B22AE34B1FC321C30047AA5A /* MarkListDataParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE34A1FC321C30047AA5A /* MarkListDataParse.swift */; };
+		B22AE3501FC413040047AA5A /* ProfileLoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE34D1FC413040047AA5A /* ProfileLoginHeaderView.swift */; };
+		B22AE3511FC413040047AA5A /* ProfileLoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B22AE34E1FC413040047AA5A /* ProfileLoginHeaderView.xib */; };
+		B22AE3521FC413040047AA5A /* ProfileUnLoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE34F1FC413040047AA5A /* ProfileUnLoginHeaderView.swift */; };
+		B22AE3541FC423560047AA5A /* NSString+SubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3531FC423560047AA5A /* NSString+SubString.swift */; };
+		B22AE35C1FC6F07F0047AA5A /* UnfoldCellTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3581FC6F07F0047AA5A /* UnfoldCellTopView.swift */; };
+		B22AE35D1FC6F07F0047AA5A /* UnfoldCellTopViewFormRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3591FC6F07F0047AA5A /* UnfoldCellTopViewFormRowView.swift */; };
+		B22AE35E1FC6F07F0047AA5A /* UnfoldCellTopViewTitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE35A1FC6F07F0047AA5A /* UnfoldCellTopViewTitleBar.swift */; };
+		B22AE35F1FC6F07F0047AA5A /* UnfoldCellTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE35B1FC6F07F0047AA5A /* UnfoldCellTypeView.swift */; };
+		B22AE3611FC6F0B40047AA5A /* MarkTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3601FC6F0B40047AA5A /* MarkTypeView.swift */; };
+		B22AE3631FC7B6B70047AA5A /* MarkThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3621FC7B6B70047AA5A /* MarkThumbnailView.swift */; };
+		B22AE3651FC7BEF10047AA5A /* UnfoldCellBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AE3641FC7BEF10047AA5A /* UnfoldCellBottomView.swift */; };
+		B238796220AAD821007C513E /* mock_home_page_data.json in Resources */ = {isa = PBXBuildFile; fileRef = B238796120AAD821007C513E /* mock_home_page_data.json */; };
+		B23FC0211FCDDB9A005896D2 /* GetMarkTaskResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0201FCDDB9A005896D2 /* GetMarkTaskResponse.swift */; };
+		B23FC0231FCDDD54005896D2 /* MarkListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0221FCDDD54005896D2 /* MarkListResponse.swift */; };
+		B23FC05A1FCE8667005896D2 /* SubmitTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0591FCE8667005896D2 /* SubmitTaskRequest.swift */; };
+		B23FC05C1FCE8999005896D2 /* SubmitTaskResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC05B1FCE8999005896D2 /* SubmitTaskResponse.swift */; };
+		B23FC0601FCE93F8005896D2 /* NetworkConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC05F1FCE93F8005896D2 /* NetworkConst.swift */; };
+		B23FC0631FCE9414005896D2 /* MarkNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0621FCE9414005896D2 /* MarkNavigationController.swift */; };
+		B23FC0671FCEA327005896D2 /* MarkTaskSubmitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0661FCEA327005896D2 /* MarkTaskSubmitModel.swift */; };
+		B23FC0731FCFFA2B005896D2 /* MarkEditAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC06D1FCFFA2B005896D2 /* MarkEditAble.swift */; };
+		B23FC0741FCFFA2B005896D2 /* MarkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC06E1FCFFA2B005896D2 /* MarkResult.swift */; };
+		B23FC0751FCFFA2B005896D2 /* MarkUndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC06F1FCFFA2B005896D2 /* MarkUndoManager.swift */; };
+		B23FC0761FCFFA2B005896D2 /* MoveVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0701FCFFA2B005896D2 /* MoveVector.swift */; };
+		B23FC0781FCFFA2B005896D2 /* TouchPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC0721FCFFA2B005896D2 /* TouchPosition.swift */; };
+		B23FC07B1FD0298A005896D2 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC07A1FD02989005896D2 /* AccountManager.swift */; };
+		B23FC07D1FD4EBA5005896D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23FC07C1FD4EBA5005896D2 /* User.swift */; };
+		B2428A391FAC52D8003132B2 /* CGPoint+TouchPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2428A381FAC52D8003132B2 /* CGPoint+TouchPosition.swift */; };
+		B2428A3B1FAC530D003132B2 /* UIEvent+MultipleTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2428A3A1FAC530D003132B2 /* UIEvent+MultipleTouch.swift */; };
+		B2428A411FB04C6F003132B2 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2428A401FB04C6F003132B2 /* CGRect+Extension.swift */; };
+		B2428A4D1FB1FDBC003132B2 /* UIButton+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2428A4C1FB1FDBC003132B2 /* UIButton+Convenience.swift */; };
+		B2592BBB1FE2565300F60B3D /* MarkShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2592BBA1FE2565300F60B3D /* MarkShapeLayer.swift */; };
+		B2592BBD1FE256B100F60B3D /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2592BBC1FE256B000F60B3D /* RectangleLayer.swift */; };
+		B25BCE861FA316BF00F121E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BCE851FA316BF00F121E5 /* AppDelegate.swift */; };
+		B25BCE901FA316BF00F121E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25BCE8E1FA316BF00F121E5 /* LaunchScreen.storyboard */; };
+		B25BCE9B1FA316C000F121E5 /* SHWMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BCE9A1FA316C000F121E5 /* SHWMarkTests.swift */; };
+		B26995C51FD7ECC100E6E61C /* MarkEditBottomTypeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26995C41FD7ECC100E6E61C /* MarkEditBottomTypeBar.swift */; };
+		B270D9EF220D515900CBFF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B270D9EE220D515800CBFF3C /* Assets.xcassets */; };
+		B273F6761FBBE94300DD11F6 /* MarkJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273F6731FBBE94300DD11F6 /* MarkJobCell.swift */; };
+		B273F6771FBBE94300DD11F6 /* MarkJobFoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273F6741FBBE94300DD11F6 /* MarkJobFoldView.swift */; };
+		B273F6781FBBE94300DD11F6 /* MarkJobUnfoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273F6751FBBE94300DD11F6 /* MarkJobUnfoldView.swift */; };
+		B273F6881FBC302400DD11F6 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273F6871FBC302400DD11F6 /* UIImage+Color.swift */; };
+		B27CD2301FCBBF6F006FA218 /* CanvasImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CD22D1FCBBF6F006FA218 /* CanvasImageView.swift */; };
+		B27CD2321FCBBF6F006FA218 /* ZoomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CD22F1FCBBF6F006FA218 /* ZoomScrollView.swift */; };
+		B27CD2371FCBC2F9006FA218 /* GetMarkTaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CD2361FCBC2F9006FA218 /* GetMarkTaskRequest.swift */; };
+		B27CD23C1FCBFBD9006FA218 /* MarkTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CD23B1FCBFBD9006FA218 /* MarkTaskModel.swift */; };
+		B285E8A91FBE8B0A00C17ED9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B285E8A81FBE8B0900C17ED9 /* Login.storyboard */; };
+		B285E8AE1FBECEC000C17ED9 /* Pods_SHWMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285E8AF1FBECEC000C17ED9 /* Pods_SHWMark.framework */; };
+		B28E54241FF38484004FF25F /* UIButton+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28E54231FF38484004FF25F /* UIButton+Rx.swift */; };
+		B28E54261FF394F8004FF25F /* NSString+Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28E54251FF394F8004FF25F /* NSString+Validate.swift */; };
+		B2A694EF1FD99CCA0051B637 /* SHWSocialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A694ED1FD99CCA0051B637 /* SHWSocialManager.swift */; };
+		B2CB97A61FC074C800B518E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB97A51FC074C800B518E6 /* ProfileViewController.swift */; };
+		B2CD8C781FD92B57005FE9BC /* NSString+TextWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8C771FD92B57005FE9BC /* NSString+TextWidth.swift */; };
+		B2CD8C7A1FD92D31005FE9BC /* CALayer+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8C791FD92D31005FE9BC /* CALayer+Sort.swift */; };
+		B2CD8C7C1FD930A7005FE9BC /* CGRect+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8C7B1FD930A7005FE9BC /* CGRect+Scale.swift */; };
+		B2CD8C7E1FD930DD005FE9BC /* CGRect+TouchPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8C7D1FD930DD005FE9BC /* CGRect+TouchPosition.swift */; };
+		B2CD8C801FD93B44005FE9BC /* MarkJobSkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CD8C7F1FD93B44005FE9BC /* MarkJobSkeletonCell.swift */; };
+		B2CD8C821FD93B5C005FE9BC /* MarkJobSkeletonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CD8C811FD93B5C005FE9BC /* MarkJobSkeletonCell.xib */; };
+		B2D8B3F81FC2B44700E25B6D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D8B3F71FC2B44700E25B6D /* LoginViewModel.swift */; };
+		DD4E230A1FCFE2B70060905B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4E23091FCFE2B70060905B /* libsqlite3.tbd */; };
+		DD4E230C1FCFE2C00060905B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4E230B1FCFE2C00060905B /* CoreGraphics.framework */; };
+		DDAF416A1FD6865300513C53 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF41691FD6865300513C53 /* Security.framework */; };
+		DDAF416C1FD6866500513C53 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF416B1FD6866500513C53 /* libiconv.tbd */; };
+		DDAF416E1FD6867100513C53 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF416D1FD6867100513C53 /* SystemConfiguration.framework */; };
+		DDAF41701FD686D600513C53 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF416F1FD686D600513C53 /* CoreTelephony.framework */; };
+		DDAF41721FD686DF00513C53 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF41711FD686DF00513C53 /* libstdc++.tbd */; };
+		DDAF41741FD686EB00513C53 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF41731FD686EB00513C53 /* libz.tbd */; };
+		E6FF3444807FBE71DA028848 /* Pods_SHWMarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CF5A4DD03196C9F7CFE110 /* Pods_SHWMarkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B25BCE971FA316C000F121E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25BCE7A1FA316BF00F121E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25BCE811FA316BF00F121E5;
+			remoteInfo = SHWMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A4BE150FB22BA45D802CE88 /* Pods-SHWMarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWMarkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWMarkTests/Pods-SHWMarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		77156DAAD01F93D381369A0D /* Pods-SHWMark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWMark.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWMark/Pods-SHWMark.release.xcconfig"; sourceTree = "<group>"; };
+		8A91EDF85A31674997C53B3C /* Pods-SHWMarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWMarkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWMarkTests/Pods-SHWMarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		922600684F30AC251D2C19FB /* Pods-SHWMark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWMark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWMark/Pods-SHWMark.debug.xcconfig"; sourceTree = "<group>"; };
+		B20138D81FB2E4F0009230CF /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		B2205B211FB95A3000FD3CAC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2205B301FB95A3000FD3CAC /* MarkEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkEditViewController.swift; sourceTree = "<group>"; };
+		B2205B441FB983AF00FD3CAC /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		B2205B4B1FB9889E00FD3CAC /* MarkJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkJobListViewController.swift; sourceTree = "<group>"; };
+		B22273741FFE106E00879CB7 /* MarkSelectedMaskLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkSelectedMaskLayer.swift; sourceTree = "<group>"; };
+		B22273771FFE31DA00879CB7 /* ConfigCenterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigCenterService.swift; sourceTree = "<group>"; };
+		B22273791FFE320300879CB7 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		B226C43E1FD688B000D3C50B /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		B226C4711FD7E00300D3C50B /* MarkJobColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkJobColor.swift; sourceTree = "<group>"; };
+		B22AE33F1FC2F2100047AA5A /* ColorStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStackView.swift; sourceTree = "<group>"; };
+		B22AE3451FC31A5D0047AA5A /* MarkListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkListRequest.swift; sourceTree = "<group>"; };
+		B22AE3481FC31AC10047AA5A /* MarkListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkListModel.swift; sourceTree = "<group>"; };
+		B22AE34A1FC321C30047AA5A /* MarkListDataParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkListDataParse.swift; sourceTree = "<group>"; };
+		B22AE34D1FC413040047AA5A /* ProfileLoginHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileLoginHeaderView.swift; sourceTree = "<group>"; };
+		B22AE34E1FC413040047AA5A /* ProfileLoginHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileLoginHeaderView.xib; sourceTree = "<group>"; };
+		B22AE34F1FC413040047AA5A /* ProfileUnLoginHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUnLoginHeaderView.swift; sourceTree = "<group>"; };
+		B22AE3531FC423560047AA5A /* NSString+SubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+SubString.swift"; sourceTree = "<group>"; };
+		B22AE3581FC6F07F0047AA5A /* UnfoldCellTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfoldCellTopView.swift; sourceTree = "<group>"; };
+		B22AE3591FC6F07F0047AA5A /* UnfoldCellTopViewFormRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfoldCellTopViewFormRowView.swift; sourceTree = "<group>"; };
+		B22AE35A1FC6F07F0047AA5A /* UnfoldCellTopViewTitleBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfoldCellTopViewTitleBar.swift; sourceTree = "<group>"; };
+		B22AE35B1FC6F07F0047AA5A /* UnfoldCellTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfoldCellTypeView.swift; sourceTree = "<group>"; };
+		B22AE3601FC6F0B40047AA5A /* MarkTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkTypeView.swift; sourceTree = "<group>"; };
+		B22AE3621FC7B6B70047AA5A /* MarkThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkThumbnailView.swift; sourceTree = "<group>"; };
+		B22AE3641FC7BEF10047AA5A /* UnfoldCellBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfoldCellBottomView.swift; sourceTree = "<group>"; };
+		B238796120AAD821007C513E /* mock_home_page_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_home_page_data.json; sourceTree = "<group>"; };
+		B23FC0201FCDDB9A005896D2 /* GetMarkTaskResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMarkTaskResponse.swift; sourceTree = "<group>"; };
+		B23FC0221FCDDD54005896D2 /* MarkListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkListResponse.swift; sourceTree = "<group>"; };
+		B23FC0591FCE8667005896D2 /* SubmitTaskRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTaskRequest.swift; sourceTree = "<group>"; };
+		B23FC05B1FCE8999005896D2 /* SubmitTaskResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTaskResponse.swift; sourceTree = "<group>"; };
+		B23FC05F1FCE93F8005896D2 /* NetworkConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConst.swift; sourceTree = "<group>"; };
+		B23FC0621FCE9414005896D2 /* MarkNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkNavigationController.swift; sourceTree = "<group>"; };
+		B23FC0661FCEA327005896D2 /* MarkTaskSubmitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkTaskSubmitModel.swift; sourceTree = "<group>"; };
+		B23FC06D1FCFFA2B005896D2 /* MarkEditAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkEditAble.swift; sourceTree = "<group>"; };
+		B23FC06E1FCFFA2B005896D2 /* MarkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkResult.swift; sourceTree = "<group>"; };
+		B23FC06F1FCFFA2B005896D2 /* MarkUndoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkUndoManager.swift; sourceTree = "<group>"; };
+		B23FC0701FCFFA2B005896D2 /* MoveVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveVector.swift; sourceTree = "<group>"; };
+		B23FC0721FCFFA2B005896D2 /* TouchPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchPosition.swift; sourceTree = "<group>"; };
+		B23FC07A1FD02989005896D2 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		B23FC07C1FD4EBA5005896D2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B2428A381FAC52D8003132B2 /* CGPoint+TouchPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+TouchPosition.swift"; sourceTree = "<group>"; };
+		B2428A3A1FAC530D003132B2 /* UIEvent+MultipleTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEvent+MultipleTouch.swift"; sourceTree = "<group>"; };
+		B2428A401FB04C6F003132B2 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		B2428A4C1FB1FDBC003132B2 /* UIButton+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Convenience.swift"; sourceTree = "<group>"; };
+		B2592BBA1FE2565300F60B3D /* MarkShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkShapeLayer.swift; sourceTree = "<group>"; };
+		B2592BBC1FE256B000F60B3D /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		B25BCE821FA316BF00F121E5 /* SHWMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHWMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25BCE851FA316BF00F121E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B25BCE8F1FA316BF00F121E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B25BCE911FA316BF00F121E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25BCE961FA316C000F121E5 /* SHWMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHWMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25BCE9A1FA316C000F121E5 /* SHWMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHWMarkTests.swift; sourceTree = "<group>"; };
+		B25BCE9C1FA316C000F121E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26995C41FD7ECC100E6E61C /* MarkEditBottomTypeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkEditBottomTypeBar.swift; sourceTree = "<group>"; };
+		B270D9EE220D515800CBFF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B273F6731FBBE94300DD11F6 /* MarkJobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkJobCell.swift; sourceTree = "<group>"; };
+		B273F6741FBBE94300DD11F6 /* MarkJobFoldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkJobFoldView.swift; sourceTree = "<group>"; };
+		B273F6751FBBE94300DD11F6 /* MarkJobUnfoldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkJobUnfoldView.swift; sourceTree = "<group>"; };
+		B273F6871FBC302400DD11F6 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		B27CD22D1FCBBF6F006FA218 /* CanvasImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasImageView.swift; sourceTree = "<group>"; };
+		B27CD22F1FCBBF6F006FA218 /* ZoomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomScrollView.swift; sourceTree = "<group>"; };
+		B27CD2361FCBC2F9006FA218 /* GetMarkTaskRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMarkTaskRequest.swift; sourceTree = "<group>"; };
+		B27CD23B1FCBFBD9006FA218 /* MarkTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkTaskModel.swift; sourceTree = "<group>"; };
+		B285E8A81FBE8B0900C17ED9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B285E8AF1FBECEC000C17ED9 /* Pods_SHWMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SHWMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28E54231FF38484004FF25F /* UIButton+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Rx.swift"; sourceTree = "<group>"; };
+		B28E54251FF394F8004FF25F /* NSString+Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Validate.swift"; sourceTree = "<group>"; };
+		B2A694ED1FD99CCA0051B637 /* SHWSocialManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHWSocialManager.swift; sourceTree = "<group>"; };
+		B2CB97A51FC074C800B518E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B2CD8C771FD92B57005FE9BC /* NSString+TextWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+TextWidth.swift"; sourceTree = "<group>"; };
+		B2CD8C791FD92D31005FE9BC /* CALayer+Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Sort.swift"; sourceTree = "<group>"; };
+		B2CD8C7B1FD930A7005FE9BC /* CGRect+Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Scale.swift"; sourceTree = "<group>"; };
+		B2CD8C7D1FD930DD005FE9BC /* CGRect+TouchPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+TouchPosition.swift"; sourceTree = "<group>"; };
+		B2CD8C7F1FD93B44005FE9BC /* MarkJobSkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkJobSkeletonCell.swift; sourceTree = "<group>"; };
+		B2CD8C811FD93B5C005FE9BC /* MarkJobSkeletonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkJobSkeletonCell.xib; sourceTree = "<group>"; };
+		B2D8B3F71FC2B44700E25B6D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B4CF5A4DD03196C9F7CFE110 /* Pods_SHWMarkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWMarkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4E23091FCFE2B70060905B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DD4E230B1FCFE2C00060905B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDAF41691FD6865300513C53 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DDAF416B1FD6866500513C53 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DDAF416D1FD6867100513C53 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DDAF416F1FD686D600513C53 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DDAF41711FD686DF00513C53 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DDAF41731FD686EB00513C53 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DDAF41751FD69F2000513C53 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25BCE7F1FA316BF00F121E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF41741FD686EB00513C53 /* libz.tbd in Frameworks */,
+				DDAF41721FD686DF00513C53 /* libstdc++.tbd in Frameworks */,
+				DDAF41701FD686D600513C53 /* CoreTelephony.framework in Frameworks */,
+				DD4E230A1FCFE2B70060905B /* libsqlite3.tbd in Frameworks */,
+				DD4E230C1FCFE2C00060905B /* CoreGraphics.framework in Frameworks */,
+				DDAF416E1FD6867100513C53 /* SystemConfiguration.framework in Frameworks */,
+				DDAF416C1FD6866500513C53 /* libiconv.tbd in Frameworks */,
+				DDAF416A1FD6865300513C53 /* Security.framework in Frameworks */,
+				B285E8AE1FBECEC000C17ED9 /* Pods_SHWMark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25BCE931FA316C000F121E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FF3444807FBE71DA028848 /* Pods_SHWMarkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BC377B9FCAF9D0444EE4960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF41731FD686EB00513C53 /* libz.tbd */,
+				DDAF41711FD686DF00513C53 /* libstdc++.tbd */,
+				DDAF416F1FD686D600513C53 /* CoreTelephony.framework */,
+				DDAF416D1FD6867100513C53 /* SystemConfiguration.framework */,
+				DDAF416B1FD6866500513C53 /* libiconv.tbd */,
+				DDAF41691FD6865300513C53 /* Security.framework */,
+				DD4E230B1FCFE2C00060905B /* CoreGraphics.framework */,
+				DD4E23091FCFE2B70060905B /* libsqlite3.tbd */,
+				B285E8AF1FBECEC000C17ED9 /* Pods_SHWMark.framework */,
+				B4CF5A4DD03196C9F7CFE110 /* Pods_SHWMarkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2205B1F1FB95A3000FD3CAC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B2205B461FB9878100FD3CAC /* MarkJobList */,
+				B2205B221FB95A3000FD3CAC /* MarkEditor */,
+				B2A694EC1FD99CCA0051B637 /* Social */,
+				B23FC0791FD0297B005896D2 /* Account */,
+				B2CB97A41FC074C800B518E6 /* Profile */,
+				B2205B201FB95A3000FD3CAC /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B2205B201FB95A3000FD3CAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B2205B211FB95A3000FD3CAC /* LoginViewController.swift */,
+				B2D8B3F71FC2B44700E25B6D /* LoginViewModel.swift */,
+				B285E8A81FBE8B0900C17ED9 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B2205B221FB95A3000FD3CAC /* MarkEditor */ = {
+			isa = PBXGroup;
+			children = (
+				B27CD22C1FCBBF6F006FA218 /* Views */,
+				B27CD2381FCBC370006FA218 /* Model */,
+				B27CD2351FCBC26F006FA218 /* Request */,
+				B2205B301FB95A3000FD3CAC /* MarkEditViewController.swift */,
+			);
+			path = MarkEditor;
+			sourceTree = "<group>";
+		};
+		B2205B461FB9878100FD3CAC /* MarkJobList */ = {
+			isa = PBXGroup;
+			children = (
+				B273F6721FBBE94300DD11F6 /* Views */,
+				B22AE3471FC31A9C0047AA5A /* Model */,
+				B22AE3441FC319A20047AA5A /* Request */,
+				B2205B4B1FB9889E00FD3CAC /* MarkJobListViewController.swift */,
+			);
+			path = MarkJobList;
+			sourceTree = "<group>";
+		};
+		B22273761FFE31DA00879CB7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B22273771FFE31DA00879CB7 /* ConfigCenterService.swift */,
+				B22273791FFE320300879CB7 /* ImageCacheManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B22AE33E1FC2F2100047AA5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE33F1FC2F2100047AA5A /* ColorStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B22AE3431FC2F22C0047AA5A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B23FC05F1FCE93F8005896D2 /* NetworkConst.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B22AE3441FC319A20047AA5A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE3451FC31A5D0047AA5A /* MarkListRequest.swift */,
+				B23FC0221FCDDD54005896D2 /* MarkListResponse.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B22AE3471FC31A9C0047AA5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE3481FC31AC10047AA5A /* MarkListModel.swift */,
+				B22AE34A1FC321C30047AA5A /* MarkListDataParse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B22AE34C1FC413040047AA5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE34D1FC413040047AA5A /* ProfileLoginHeaderView.swift */,
+				B22AE34E1FC413040047AA5A /* ProfileLoginHeaderView.xib */,
+				B22AE34F1FC413040047AA5A /* ProfileUnLoginHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B22AE3571FC6F07F0047AA5A /* UnfoldSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE3581FC6F07F0047AA5A /* UnfoldCellTopView.swift */,
+				B22AE3591FC6F07F0047AA5A /* UnfoldCellTopViewFormRowView.swift */,
+				B22AE35A1FC6F07F0047AA5A /* UnfoldCellTopViewTitleBar.swift */,
+				B22AE35B1FC6F07F0047AA5A /* UnfoldCellTypeView.swift */,
+				B22AE3601FC6F0B40047AA5A /* MarkTypeView.swift */,
+				B22AE3621FC7B6B70047AA5A /* MarkThumbnailView.swift */,
+				B22AE3641FC7BEF10047AA5A /* UnfoldCellBottomView.swift */,
+			);
+			path = UnfoldSubViews;
+			sourceTree = "<group>";
+		};
+		B23FC0611FCE9414005896D2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B23FC0621FCE9414005896D2 /* MarkNavigationController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B23FC06C1FCFFA2B005896D2 /* DrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B23FC06D1FCFFA2B005896D2 /* MarkEditAble.swift */,
+				B23FC06E1FCFFA2B005896D2 /* MarkResult.swift */,
+				B23FC06F1FCFFA2B005896D2 /* MarkUndoManager.swift */,
+				B23FC0701FCFFA2B005896D2 /* MoveVector.swift */,
+				B23FC0721FCFFA2B005896D2 /* TouchPosition.swift */,
+				B226C4711FD7E00300D3C50B /* MarkJobColor.swift */,
+			);
+			path = DrawingBoard;
+			sourceTree = "<group>";
+		};
+		B23FC0791FD0297B005896D2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B23FC07A1FD02989005896D2 /* AccountManager.swift */,
+				B23FC07C1FD4EBA5005896D2 /* User.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		B2428A371FAC52AA003132B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2428A381FAC52D8003132B2 /* CGPoint+TouchPosition.swift */,
+				B2428A3A1FAC530D003132B2 /* UIEvent+MultipleTouch.swift */,
+				B2428A401FB04C6F003132B2 /* CGRect+Extension.swift */,
+				B2CD8C7D1FD930DD005FE9BC /* CGRect+TouchPosition.swift */,
+				B2CD8C7B1FD930A7005FE9BC /* CGRect+Scale.swift */,
+				B2428A4C1FB1FDBC003132B2 /* UIButton+Convenience.swift */,
+				B20138D81FB2E4F0009230CF /* UIColor+Hex.swift */,
+				B2205B441FB983AF00FD3CAC /* UIView+Frame.swift */,
+				B273F6871FBC302400DD11F6 /* UIImage+Color.swift */,
+				B22AE3531FC423560047AA5A /* NSString+SubString.swift */,
+				B2CD8C771FD92B57005FE9BC /* NSString+TextWidth.swift */,
+				B28E54251FF394F8004FF25F /* NSString+Validate.swift */,
+				B2CD8C791FD92D31005FE9BC /* CALayer+Sort.swift */,
+				B28E54231FF38484004FF25F /* UIButton+Rx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2592BB91FE2564100F60B3D /* MarkShapes */ = {
+			isa = PBXGroup;
+			children = (
+				B2592BBA1FE2565300F60B3D /* MarkShapeLayer.swift */,
+				B2592BBC1FE256B000F60B3D /* RectangleLayer.swift */,
+				B22273741FFE106E00879CB7 /* MarkSelectedMaskLayer.swift */,
+			);
+			path = MarkShapes;
+			sourceTree = "<group>";
+		};
+		B259AAC91FB358180036328B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B22273761FFE31DA00879CB7 /* Service */,
+				B29DEEC81FD67FDD00D10AEB /* Protocol */,
+				B22AE3431FC2F22C0047AA5A /* Networking */,
+				B23FC0611FCE9414005896D2 /* ViewController */,
+				B22AE33E1FC2F2100047AA5A /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B25BCE791FA316BF00F121E5 = {
+			isa = PBXGroup;
+			children = (
+				B25BCE841FA316BF00F121E5 /* SHWMark */,
+				B25BCE991FA316C000F121E5 /* SHWMarkTests */,
+				B25BCE831FA316BF00F121E5 /* Products */,
+				F8BDA82A975DF5C63483CDDA /* Pods */,
+				9BC377B9FCAF9D0444EE4960 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B25BCE831FA316BF00F121E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25BCE821FA316BF00F121E5 /* SHWMark.app */,
+				B25BCE961FA316C000F121E5 /* SHWMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25BCE841FA316BF00F121E5 /* SHWMark */ = {
+			isa = PBXGroup;
+			children = (
+				B25BCE851FA316BF00F121E5 /* AppDelegate.swift */,
+				B2205B1F1FB95A3000FD3CAC /* Modules */,
+				B259AAC91FB358180036328B /* Common */,
+				B2428A371FAC52AA003132B2 /* Extensions */,
+				B2EFC7641FBC539C00534170 /* Resources */,
+				B25BCEA51FA31BD700F121E5 /* Supporting Files */,
+			);
+			path = SHWMark;
+			sourceTree = "<group>";
+		};
+		B25BCE991FA316C000F121E5 /* SHWMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B25BCE9A1FA316C000F121E5 /* SHWMarkTests.swift */,
+				B25BCE9C1FA316C000F121E5 /* Info.plist */,
+			);
+			path = SHWMarkTests;
+			sourceTree = "<group>";
+		};
+		B25BCEA51FA31BD700F121E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25BCE8E1FA316BF00F121E5 /* LaunchScreen.storyboard */,
+				B25BCE911FA316BF00F121E5 /* Info.plist */,
+				DDAF41751FD69F2000513C53 /* Bridging.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B273F6721FBBE94300DD11F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE3571FC6F07F0047AA5A /* UnfoldSubViews */,
+				B273F6731FBBE94300DD11F6 /* MarkJobCell.swift */,
+				B273F6741FBBE94300DD11F6 /* MarkJobFoldView.swift */,
+				B273F6751FBBE94300DD11F6 /* MarkJobUnfoldView.swift */,
+				B2CD8C7F1FD93B44005FE9BC /* MarkJobSkeletonCell.swift */,
+				B2CD8C811FD93B5C005FE9BC /* MarkJobSkeletonCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B27CD22C1FCBBF6F006FA218 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2592BB91FE2564100F60B3D /* MarkShapes */,
+				B23FC06C1FCFFA2B005896D2 /* DrawingBoard */,
+				B27CD22D1FCBBF6F006FA218 /* CanvasImageView.swift */,
+				B27CD22F1FCBBF6F006FA218 /* ZoomScrollView.swift */,
+				B26995C41FD7ECC100E6E61C /* MarkEditBottomTypeBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B27CD2351FCBC26F006FA218 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B27CD2361FCBC2F9006FA218 /* GetMarkTaskRequest.swift */,
+				B23FC0201FCDDB9A005896D2 /* GetMarkTaskResponse.swift */,
+				B23FC0591FCE8667005896D2 /* SubmitTaskRequest.swift */,
+				B23FC05B1FCE8999005896D2 /* SubmitTaskResponse.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B27CD2381FCBC370006FA218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B27CD23B1FCBFBD9006FA218 /* MarkTaskModel.swift */,
+				B23FC0661FCEA327005896D2 /* MarkTaskSubmitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B29DEEC81FD67FDD00D10AEB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B226C43E1FD688B000D3C50B /* StoryboardInstantiable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B2A694EC1FD99CCA0051B637 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				B2A694ED1FD99CCA0051B637 /* SHWSocialManager.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		B2CB97A41FC074C800B518E6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B22AE34C1FC413040047AA5A /* Views */,
+				B2CB97A51FC074C800B518E6 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B2EFC7641FBC539C00534170 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B238796120AAD821007C513E /* mock_home_page_data.json */,
+				B270D9EE220D515800CBFF3C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8BDA82A975DF5C63483CDDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922600684F30AC251D2C19FB /* Pods-SHWMark.debug.xcconfig */,
+				77156DAAD01F93D381369A0D /* Pods-SHWMark.release.xcconfig */,
+				8A91EDF85A31674997C53B3C /* Pods-SHWMarkTests.debug.xcconfig */,
+				3A4BE150FB22BA45D802CE88 /* Pods-SHWMarkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B25BCE811FA316BF00F121E5 /* SHWMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25BCE9F1FA316C000F121E5 /* Build configuration list for PBXNativeTarget "SHWMark" */;
+			buildPhases = (
+				8104D5F8DE73755FC882E350 /* [CP] Check Pods Manifest.lock */,
+				B25BCE7E1FA316BF00F121E5 /* Sources */,
+				B25BCE7F1FA316BF00F121E5 /* Frameworks */,
+				B25BCE801FA316BF00F121E5 /* Resources */,
+				BEE2F17AB0D47F291F0CB82D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHWMark;
+			productName = SHWMark;
+			productReference = B25BCE821FA316BF00F121E5 /* SHWMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B25BCE951FA316C000F121E5 /* SHWMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25BCEA21FA316C000F121E5 /* Build configuration list for PBXNativeTarget "SHWMarkTests" */;
+			buildPhases = (
+				C543EC8882DAFBF141D38B18 /* [CP] Check Pods Manifest.lock */,
+				B25BCE921FA316C000F121E5 /* Sources */,
+				B25BCE931FA316C000F121E5 /* Frameworks */,
+				B25BCE941FA316C000F121E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25BCE981FA316C000F121E5 /* PBXTargetDependency */,
+			);
+			name = SHWMarkTests;
+			productName = SHWMarkTests;
+			productReference = B25BCE961FA316C000F121E5 /* SHWMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25BCE7A1FA316BF00F121E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Xin Hua Zhi Yun";
+				TargetAttributes = {
+					B25BCE811FA316BF00F121E5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R43737H5WP;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					B25BCE951FA316C000F121E5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R43737H5WP;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B25BCE811FA316BF00F121E5;
+					};
+				};
+			};
+			buildConfigurationList = B25BCE7D1FA316BF00F121E5 /* Build configuration list for PBXProject "SHWMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B25BCE791FA316BF00F121E5;
+			productRefGroup = B25BCE831FA316BF00F121E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B25BCE811FA316BF00F121E5 /* SHWMark */,
+				B25BCE951FA316C000F121E5 /* SHWMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B25BCE801FA316BF00F121E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B285E8A91FBE8B0A00C17ED9 /* Login.storyboard in Resources */,
+				B22AE3511FC413040047AA5A /* ProfileLoginHeaderView.xib in Resources */,
+				B25BCE901FA316BF00F121E5 /* LaunchScreen.storyboard in Resources */,
+				B270D9EF220D515900CBFF3C /* Assets.xcassets in Resources */,
+				B2CD8C821FD93B5C005FE9BC /* MarkJobSkeletonCell.xib in Resources */,
+				B238796220AAD821007C513E /* mock_home_page_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25BCE941FA316C000F121E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8104D5F8DE73755FC882E350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHWMark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE2F17AB0D47F291F0CB82D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHWMark/Pods-SHWMark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PhotoBrowser/PhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHWMark/Pods-SHWMark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C543EC8882DAFBF141D38B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHWMarkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B25BCE7E1FA316BF00F121E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2205B451FB983AF00FD3CAC /* UIView+Frame.swift in Sources */,
+				B22AE3651FC7BEF10047AA5A /* UnfoldCellBottomView.swift in Sources */,
+				B23FC0731FCFFA2B005896D2 /* MarkEditAble.swift in Sources */,
+				B22AE35F1FC6F07F0047AA5A /* UnfoldCellTypeView.swift in Sources */,
+				B2CD8C781FD92B57005FE9BC /* NSString+TextWidth.swift in Sources */,
+				B27CD23C1FCBFBD9006FA218 /* MarkTaskModel.swift in Sources */,
+				B23FC0631FCE9414005896D2 /* MarkNavigationController.swift in Sources */,
+				B273F6881FBC302400DD11F6 /* UIImage+Color.swift in Sources */,
+				B2A694EF1FD99CCA0051B637 /* SHWSocialManager.swift in Sources */,
+				B22AE3491FC31AC10047AA5A /* MarkListModel.swift in Sources */,
+				B23FC07D1FD4EBA5005896D2 /* User.swift in Sources */,
+				B26995C51FD7ECC100E6E61C /* MarkEditBottomTypeBar.swift in Sources */,
+				B2205B3C1FB95A3100FD3CAC /* MarkEditViewController.swift in Sources */,
+				B20138D91FB2E4F0009230CF /* UIColor+Hex.swift in Sources */,
+				B23FC0601FCE93F8005896D2 /* NetworkConst.swift in Sources */,
+				B27CD2321FCBBF6F006FA218 /* ZoomScrollView.swift in Sources */,
+				B23FC0231FCDDD54005896D2 /* MarkListResponse.swift in Sources */,
+				B27CD2371FCBC2F9006FA218 /* GetMarkTaskRequest.swift in Sources */,
+				B22AE3411FC2F2110047AA5A /* ColorStackView.swift in Sources */,
+				B22AE3631FC7B6B70047AA5A /* MarkThumbnailView.swift in Sources */,
+				B2428A3B1FAC530D003132B2 /* UIEvent+MultipleTouch.swift in Sources */,
+				B273F6771FBBE94300DD11F6 /* MarkJobFoldView.swift in Sources */,
+				B226C43F1FD688B000D3C50B /* StoryboardInstantiable.swift in Sources */,
+				B2CD8C7E1FD930DD005FE9BC /* CGRect+TouchPosition.swift in Sources */,
+				B2CD8C7C1FD930A7005FE9BC /* CGRect+Scale.swift in Sources */,
+				B22AE3461FC31A5D0047AA5A /* MarkListRequest.swift in Sources */,
+				B28E54241FF38484004FF25F /* UIButton+Rx.swift in Sources */,
+				B22AE35D1FC6F07F0047AA5A /* UnfoldCellTopViewFormRowView.swift in Sources */,
+				B273F6781FBBE94300DD11F6 /* MarkJobUnfoldView.swift in Sources */,
+				B2428A4D1FB1FDBC003132B2 /* UIButton+Convenience.swift in Sources */,
+				B273F6761FBBE94300DD11F6 /* MarkJobCell.swift in Sources */,
+				B23FC0741FCFFA2B005896D2 /* MarkResult.swift in Sources */,
+				B2428A411FB04C6F003132B2 /* CGRect+Extension.swift in Sources */,
+				B23FC07B1FD0298A005896D2 /* AccountManager.swift in Sources */,
+				B22AE3611FC6F0B40047AA5A /* MarkTypeView.swift in Sources */,
+				B2205B4C1FB9889E00FD3CAC /* MarkJobListViewController.swift in Sources */,
+				B2CD8C7A1FD92D31005FE9BC /* CALayer+Sort.swift in Sources */,
+				B23FC0671FCEA327005896D2 /* MarkTaskSubmitModel.swift in Sources */,
+				B22AE35C1FC6F07F0047AA5A /* UnfoldCellTopView.swift in Sources */,
+				B226C4721FD7E00300D3C50B /* MarkJobColor.swift in Sources */,
+				B22AE3501FC413040047AA5A /* ProfileLoginHeaderView.swift in Sources */,
+				B2205B311FB95A3100FD3CAC /* LoginViewController.swift in Sources */,
+				B28E54261FF394F8004FF25F /* NSString+Validate.swift in Sources */,
+				B22273781FFE31DA00879CB7 /* ConfigCenterService.swift in Sources */,
+				B23FC0781FCFFA2B005896D2 /* TouchPosition.swift in Sources */,
+				B2428A391FAC52D8003132B2 /* CGPoint+TouchPosition.swift in Sources */,
+				B22273751FFE106F00879CB7 /* MarkSelectedMaskLayer.swift in Sources */,
+				B23FC0211FCDDB9A005896D2 /* GetMarkTaskResponse.swift in Sources */,
+				B22AE34B1FC321C30047AA5A /* MarkListDataParse.swift in Sources */,
+				B2CD8C801FD93B44005FE9BC /* MarkJobSkeletonCell.swift in Sources */,
+				B22AE3521FC413040047AA5A /* ProfileUnLoginHeaderView.swift in Sources */,
+				B22AE3541FC423560047AA5A /* NSString+SubString.swift in Sources */,
+				B23FC0751FCFFA2B005896D2 /* MarkUndoManager.swift in Sources */,
+				B25BCE861FA316BF00F121E5 /* AppDelegate.swift in Sources */,
+				B2CB97A61FC074C800B518E6 /* ProfileViewController.swift in Sources */,
+				B23FC0761FCFFA2B005896D2 /* MoveVector.swift in Sources */,
+				B2592BBB1FE2565300F60B3D /* MarkShapeLayer.swift in Sources */,
+				B27CD2301FCBBF6F006FA218 /* CanvasImageView.swift in Sources */,
+				B23FC05A1FCE8667005896D2 /* SubmitTaskRequest.swift in Sources */,
+				B2592BBD1FE256B100F60B3D /* RectangleLayer.swift in Sources */,
+				B2D8B3F81FC2B44700E25B6D /* LoginViewModel.swift in Sources */,
+				B22AE35E1FC6F07F0047AA5A /* UnfoldCellTopViewTitleBar.swift in Sources */,
+				B23FC05C1FCE8999005896D2 /* SubmitTaskResponse.swift in Sources */,
+				B222737A1FFE320300879CB7 /* ImageCacheManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25BCE921FA316C000F121E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25BCE9B1FA316C000F121E5 /* SHWMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B25BCE981FA316C000F121E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25BCE811FA316BF00F121E5 /* SHWMark */;
+			targetProxy = B25BCE971FA316C000F121E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B25BCE8E1FA316BF00F121E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25BCE8F1FA316BF00F121E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B25BCE9D1FA316C000F121E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B25BCE9E1FA316C000F121E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25BCEA01FA316C000F121E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922600684F30AC251D2C19FB /* Pods-SHWMark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R43737H5WP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SHWMark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuwen.SHWMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SHWMark/Bridging.h;
+				SWIFT_VERSION = 4.2;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		B25BCEA11FA316C000F121E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77156DAAD01F93D381369A0D /* Pods-SHWMark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R43737H5WP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SHWMark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuwen.SHWMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SHWMark/Bridging.h;
+				SWIFT_VERSION = 4.2;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		B25BCEA31FA316C000F121E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A91EDF85A31674997C53B3C /* Pods-SHWMarkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R43737H5WP;
+				INFOPLIST_FILE = SHWMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuwen.SHWMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHWMark.app/SHWMark";
+			};
+			name = Debug;
+		};
+		B25BCEA41FA316C000F121E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4BE150FB22BA45D802CE88 /* Pods-SHWMarkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R43737H5WP;
+				INFOPLIST_FILE = SHWMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuwen.SHWMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHWMark.app/SHWMark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25BCE7D1FA316BF00F121E5 /* Build configuration list for PBXProject "SHWMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25BCE9D1FA316C000F121E5 /* Debug */,
+				B25BCE9E1FA316C000F121E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25BCE9F1FA316C000F121E5 /* Build configuration list for PBXNativeTarget "SHWMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25BCEA01FA316C000F121E5 /* Debug */,
+				B25BCEA11FA316C000F121E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25BCEA21FA316C000F121E5 /* Build configuration list for PBXNativeTarget "SHWMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25BCEA31FA316C000F121E5 /* Debug */,
+				B25BCEA41FA316C000F121E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25BCE7A1FA316BF00F121E5 /* Project object */;
+}

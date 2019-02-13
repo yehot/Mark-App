@@ -1,0 +1,111 @@
+PODS:
+  - APIKit (4.0.0):
+    - Result (~> 4.0)
+  - DynamicBlurView (3.0.1)
+  - EasyPeasy (1.8.0)
+  - FoldingCell (4.0.2)
+  - HandyJSON (4.2.1)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.1.15.1)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - PhotoBrowser (0.7.0)
+  - PopupDialog (0.9.2):
+    - DynamicBlurView (~> 3.0.1)
+  - Result (4.1.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SkeletonView (1.4.1)
+  - SnapKit (4.2.0)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - SwiftyJSON (4.0.0)
+  - Then (2.3.0)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - APIKit (~> 4.0.0)
+  - EasyPeasy (~> 1.8.0)
+  - FoldingCell (~> 4.0.2)
+  - HandyJSON (~> 4.2.1)
+  - Kingfisher (~> 4.10.1)
+  - MJRefresh (~> 3.1.15)
+  - NVActivityIndicatorView (~> 4.6.1)
+  - PhotoBrowser (~> 0.7.0)
+  - PopupDialog (~> 0.9.2)
+  - RxCocoa (~> 4.4.0)
+  - RxSwift (~> 4.4.0)
+  - SkeletonView (~> 1.4.1)
+  - SnapKit (~> 4.2.0)
+  - SwifterSwift (~> 4.6.0)
+  - SwiftyJSON (~> 4.0.0)
+  - Then (~> 2.3.0)
+  - Toast-Swift (~> 4.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - APIKit
+    - DynamicBlurView
+    - EasyPeasy
+    - FoldingCell
+    - HandyJSON
+    - Kingfisher
+    - MJRefresh
+    - NVActivityIndicatorView
+    - PhotoBrowser
+    - PopupDialog
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SkeletonView
+    - SnapKit
+    - SwifterSwift
+    - SwiftyJSON
+    - Then
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  APIKit: 23ddce4be7eccd746d2ab3c62713cd80d5846d5a
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  EasyPeasy: bfffe5d47bbaaef3e32888c250a196768484b43a
+  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  PhotoBrowser: cf16d43c2889f2167071f1a7ff8fdd367ca04610
+  PopupDialog: f4bb461bf70ff422be0b56656566424ee9273080
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SkeletonView: 60d6ce7edb0cb4c7758db33c74add50392b3c475
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: a03c528c0ccd5aaa78434ae6c2dd6eac7119c485
+
+COCOAPODS: 1.6.0.beta.2

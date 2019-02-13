@@ -1,0 +1,22 @@
+{
+  "name": "SHWConfigCenter",
+  "version": "0.3.1",
+  "summary": "数闻配置中心 SDK 源码.",
+  "homepage": "https://code.aliyun.com/xhzy-ios/ios-config-center-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yehao": "yehao@shuwen.com"
+  },
+  "source": {
+    "git": "/Users/yehot/Desktop/Git-iOS/5-ConfigCenter/ios-config-center-sdk"
+  },
+  "source_files": "SHWConfigCenter/Classes/**/*",
+  "public_header_files": "SHWConfigCenter/Classes/Public/*.h",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}
